@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback UI Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="panel" class="panel-container">
+      <strong>
+        How satisfied are you with our<br />
+        customer service performance?
+      </strong>
+      <div class="ratings-container">
+        <div class="rating">
+          <img src="./images/1F644_color.png" alt="" />
+          <small>Unhappy</small>
+        </div>
+        <div class="rating">
+          <img src="./images/1F611_color.png" alt="" />
+          <small>Nutral</small>
+        </div>
+        <div class="rating active">
+          <img src="./images/1F601_color.png" alt="" />
+          <small>satisfied</small>
+        </div>
+      </div>
+      <button class="btn" id="send">Send Review</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
